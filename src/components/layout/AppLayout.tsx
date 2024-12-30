@@ -13,7 +13,6 @@ export default function AppLayout({ children }: AppLayoutProps) {
       <main className="min-h-screen">
         {children}
       </main>
-      <Footer />
     </div>
   );
 }
