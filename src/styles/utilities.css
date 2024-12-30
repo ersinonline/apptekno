@@ -1,0 +1,18 @@
+@layer utilities {
+  .scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.primary.DEFAULT') theme('colors.gray.100');
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full hover:bg-primary-dark;
+  }
+}
